@@ -43,7 +43,7 @@ pip install fastapi uvicorn
 uvicorn main:app --reload
 
 # Abrir en el navegador
-# http://localhost:8000/docs
+http://localhost:8000/docs
 
 ## Lo que aprendí haciendo esto
 
