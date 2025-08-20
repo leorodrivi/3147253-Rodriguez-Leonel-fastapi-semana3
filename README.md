@@ -35,13 +35,13 @@ Creé una API super práctica para organizar mis tareas usando FastAPI. Ahora pu
 
 ## Cómo ejecutarlo
 
-### Instalar (si es necesario)
+### Instalar (si es necesario):
 pip install fastapi uvicorn
 
-### Ejecutar
+### Ejecutar:
 uvicorn main:app --reload
 
-### Abrir en el navegador
+### Abrir en el navegador:
 http://localhost:8000/docs
 
 ## Lo que aprendí haciendo esto
