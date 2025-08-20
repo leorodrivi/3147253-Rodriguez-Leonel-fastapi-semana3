@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/21904774/README.md)
 # 📝 Mi API de Tareas - Semana 3
 
 ## ¿Qué hice?
