@@ -34,29 +34,6 @@ Creé una API super práctica para organizar mis tareas usando FastAPI. Ahora pu
 | `PUT` | `/tareas/{id}` | Actualizar tarea |
 | `DELETE` | `/tareas/{id}` | Eliminar tarea |
 
-## Ejemplos de cómo usar
-
-### Crear una tarea nueva
-```bash
-curl -X POST "http://localhost:8000/tareas" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "titulo": "Hacer ejercicio",
-    "descripcion": "30 minutos de cardio",
-    "prioridad": 4
-  }'
-```
-
-### Ver todas mis tareas pendientes
-```bash
-curl "http://localhost:8000/tareas?completada=false"
-```
-
-### Buscar tareas importantes (prioridad ≥ 3)
-```bash
-curl "http://localhost:8000/tareas?prioridad_min=3"
-```
-
 ## Cómo ejecutarlo
 
 ```bash
